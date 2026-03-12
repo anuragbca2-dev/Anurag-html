@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Here is the form in html</h1>
+    <form action="/process.php">
+        <label for="name">Name</label>
+        <input type="name" name="name" id="name" placeholder="enter your name">
+        <br><br>
+        <label for="surname">Last name</label>
+        <input type="surname" name="Last_name" id="surname" placeholder="enter your last name">
+        <br><br>
+        <label for="phone ">Mobile no</label>
+        <input type="phone" id="phone" name="Mobile_no" placeholder="enter mobile number">
+        <br><br>
+        <label for="pass">password</label>
+        <input type="pass" id="pass" name="password" placeholder="enter your password">
+        <br><br>
+        <label for="confirm pass">confirm password</label>
+        <input type="confirm pass" id="confirm pass" name="confirmpassword" placeholder="enter confirm password">
+        <br><br>
+        <p>Choose your gender</p>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="Gender">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="Gender">female</label>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="Gender">other</label>
+        <br><br>
+        <p>choose your hobby</p>
+        <input type="checkbox" id="playing" name="playing" value="playing">
+        <label for="playing">Playing</label>
+        <input type="checkbox" id="singing" name="singing" value="singing">
+        <label for="singing">Singing</label>
+        <input type="checkbox" id="dancing" name="dancing" value="dancing">
+        <label for="dancing">Dancing</label>
+        <br><br>
+        <label for="city">choose your city</label>
+        <select name="city" id="city" >
+<option value="delhi">Delhi</option>
+<option value="mumbai">Mumbai</option>
+<option value="gujarat">Gujarat</option>
+<option value="maharashtra">Maharashtra</option>
+<option value="azamgarh">Azamgarh</option>
+<option value="janghai">Janghai</option>
+<option value="banaras">Banaras</option>
+<option value="ayodhya">Ayodhya</option>
+<option value="meeruth">Meerth</option>
+<option value="varanasi">Varanasi</option>
+<option value="jaunpur">Delhi</option>
+<option value="gazipur">gazipur</option>
+        </select>
+        <br><br>
+        <textarea name="description" rows="7" cols="144" id="description">type here !</textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
